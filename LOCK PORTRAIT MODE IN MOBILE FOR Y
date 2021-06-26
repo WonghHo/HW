@@ -1,0 +1,13 @@
+style (in angled brackets)
+ #lock{ display:none; }
+    @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  #lock{ display:block; }
+  #container{ display:none; }
+}
+ @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+   #lock{ display:none; }
+  #container{ display:block; }
+}
+style (in angled brackets)
+......................................................................................................................................................
+meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" (all in angular brackets)
